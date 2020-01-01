@@ -35,4 +35,6 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     // adding http library
     compile 'com.squareup.okhttp3:mockwebserver:4.2.1'
+    // adding gson library
+    compile 'com.google.code.gson:gson:2.8.6'
 }
