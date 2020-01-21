@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:orientation="vertical"
+                                                   android:id="@+id/assessment_layout"
+                                                   android:padding="8dp"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scrollView_root_layout"
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+                                                           android:layout_height="match_parent">
+
+            <TextView
+                    android:text="The Odorous Knight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView_first_story_title"
+                    android:layout_weight="1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498" android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp" android:textStyle="bold" android:fontFamily="cursive"
+                    android:textSize="35dp" android:textColor="@android:color/holo_blue_light"/>
+
+            <ImageView
+                    android:id="@+id/image_first_trip_to_tanzania_1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_first_story_title"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:src="@drawable/the_odorous_knight_image_1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintDimensionRatio="w,16:9" android:layout_marginTop="8dp"/>
+
+            <TextView android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:text="@string/the_odorous_knight_paragraph_1"
+                      android:layout_marginTop="8dp"
+                      app:layout_constraintTop_toBottomOf="@+id/image_first_trip_to_tanzania_1"
+                      app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                      app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                      android:letterSpacing="0.1"
+                      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                      android:textSize="20dp"
+                      android:id="@+id/paragraph_1"/>
+
+            <ImageView
+                    android:id="@+id/image_first_trip_to_tanzania_2"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:src="@drawable/the_odorous_knight_image_2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.619" android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/paragraph_1"
+                    app:layout_constraintDimensionRatio="w,16:9"/>
+
+            <TextView android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:text="@string/the_odorous_knight_paragraph_2"
+                      android:layout_marginTop="8dp"
+                      app:layout_constraintTop_toBottomOf="@+id/image_first_trip_to_tanzania_2"
+                      app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                      android:letterSpacing="0.1"
+                      android:textSize="20dp"
+                      app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                      android:id="@+id/paragraph_2"/>
+
+
+
+            <TextView android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:text="@string/the_odorous_knight_paragraph_3_and_4"
+                      android:layout_marginTop="8dp"
+                      app:layout_constraintTop_toBottomOf="@+id/paragraph_2"
+                      app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                      android:letterSpacing="0.1"
+                      android:textSize="20dp"
+                      app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                      android:id="@+id/paragraph_3"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+    <TextView
+            android:text="Assessment Question Goes here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView_root_layout" android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
+    <Button
+            android:text="Option 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+    <Button
+            android:text="Option 1 "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

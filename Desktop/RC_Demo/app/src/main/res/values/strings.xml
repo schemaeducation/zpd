@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">RC_Demo</string>
+    <string name ="trip_to_tanzania_paragraph_1">Ananya was visiting her friend, Vanessa, in Tanzania. Vanessa
+        picked her up from the airport. Vanessa greeted Ananya in Swahili - \'Hujambi  [Hello]\'. Ananya greeted her back
+        - \'Habari za asubuhi [Good morning]\'! But that was all Ananya could speak in Swahili. Vanessa could speak in
+        English as it is one of the official languages of Tanzania. Vanessa asked her friend, \'Would you like to try
+        some local cuisine before heading to the hotel\'? Anaya thought that would be great.
+    </string>
+    <string name="trip_to_tanzania_paragraph_2"> Ananya started flipping through the menu card. She looked
+        confused. There were some interesting names on the Menu card like Ugali, Ndizi Kaanga and Mandazi. She
+        did not know what these dishes were, so she asked Venessa, \'Can you please help me out\'? Vanessa started to
+        tell Ananya about them. Ugali is a type of Maize porridge. It is served with salad. Ndizi Kanga are
+        fried bananas sprinkled with either sugar or salt. Mandazi is fried sweetbread. It is either eaten as a
+        snack or a dessert. Venessa also suggested that Ananya should try Tanzanian coffee after lunch. It was
+        considered on of the best in the world.\n
+        Ananya was still confused. So, Venessa suggested that she could try Mandazi and Ugali. Anaya wanted to know
+        more about Tanzania. She asked Venessa, \'Tell me some interesting facts about Tanzania\'.
+    </string>
+    <string name="trip_to_tanzania_paragraph_3"> Vanessa told Ananya, \'Tanzania is a very diverse country. We have a
+        population of 58 million, and there are about 158 tribes in the country. Tanzania was formed in 1964 by uniting
+        Tangayika and Zanzibar. The capital of Tanzania is Dodoma\'. \n
+        Vanessa explained, \'More than 120 languages are spoken in Tanzania\'! Ananya was amazed by the rich culture and
+        diversity if Tanzania. She remarked, \'Tanzania is a diverse country like India\'. Vanessa agreed as she said,
+        \'Diversities make our countries colorful\'. \n \n
+    </string>
+    <string name="the_odorous_knight_paragraph_1">Sir Ducan and his horse were on their way to the king’s palace.
+        Sir Ducan was very excited. He sang, \‘I am going to dine with the king, TRALALALALA!
+        I like the job of a knight. Yes sir, I do like being a knight.\’
+        Sir Ducan smelled sickly as he had not bathed for many days.
+        This annoyed his horse. He feared that the other horses at the palace would ridicule him for
+        carrying an odorous knight. The horse sighed, \‘I do not like this job, no sir, I don\’t!\’
+        Sir Ducan was not happy that his horse was trotting along slowly. He yelled, \‘Faster, boy!
+        You just had lunch. Yah!\’ The horse replied furiously, \‘You call that lunch?
+        You threw one carrot into my lunch bucket!\’\n
+    </string>
+    <string name="the_odorous_knight_paragraph_2">Sir Ducan was confused. He asked, 
+        \‘Oh! You do not like carrots?\’ The horse corrected Sir Ducan and said, 
+        \‘I do like carrots but the nice and juicy ones, not the dry ones that you give me\’. 
+        Sir Ducan felt insulted. He scolded the horse,\‘I don’t like the way you are addressing me!\’ 
+        The horse could not bear the peculiar odour anymore. He asked, \‘Did you not bathe today? 
+        Is that odour coming from you?\’ Sir Ducan replied confidently, \‘Oh! You mean my natural 
+        perfume! Do you like it?\’ The horse shockingly retorted, \‘Like?! Do you like it?!\’
+    </string>
+    <string name="the_odorous_knight_paragraph_3_and_4">Sir Ducan told the horse,
+        \‘Of course! One of my ancestors was sprayed by a skunk once. We do like
+        the smell. We are proud of it!\’ He then proudly added that the king does
+        like the sigil on his shield, which is that of a skunk. The horse snorted
+        and said, \‘But he does not like your smell\’.\n
+        The horse got an idea to save his grace in front of the other horses.
+        He broke into a gallop and suddenly stopped just before a lake.
+        Sir Ducan flew off from the back of the horse and fell into the lake.
+        Sir Ducan was finally clean. The horse stood beside the lake grinning at
+        Sir Ducan who was fuming with anger.
+    </string>
+
+</resources>
